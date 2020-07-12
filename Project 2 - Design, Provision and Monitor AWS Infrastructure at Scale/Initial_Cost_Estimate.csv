@@ -1,0 +1,16 @@
+Group hierarchy,Region,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+Initial_Cost_Estimate,US East (N. Virginia),Amazon Virtual Private Cloud (VPC),0,954.45,11453.40,USD,Number of NAT Gateways (1)
+Initial_Cost_Estimate,US East (N. Virginia),Amazon Virtual Private Cloud (VPC),0,1356.71,16280.52,USD," Inbound (from: Internet) 15 TB per month
+ Outbound (to: Internet) 15 TB per month
+ Intra-Region 0 TB per month
+"
+Initial_Cost_Estimate,EU (Frankfurt),S3 Standard,0,601.29,7215.48,USD,S3 Standard storage (10 TB per month)
+Initial_Cost_Estimate,EU (Frankfurt),Data Transfer,0,0,0.00,USD," Inbound (from: Internet) 15 TB per month
+ Outbound (to: Amazon Cloud Front) 15 TB per month
+"
+Initial_Cost_Estimate,US East (N. Virginia),Amazon RDS for PostgreSQL,0,3978.56,47742.72,USD,"Quantity (2), Storage volume (General Purpose SSD (gp2)), Storage amount (3 TB per month), Instance type (db.m5.2xlarge), Additional backup storage (5 TB)"
+Initial_Cost_Estimate,US East (N. Virginia),Amazon EC2,0,1131.9,13582.80,USD,"Operating system (Linux), Quantity (16), Storage for each EC2 instance (General Purpose SSD (gp2)), Storage amount (30 GB), Instance type (t2.large)"
+Initial_Cost_Estimate,US East (N. Virginia),Elastic Load Balancing,0,200.69,2408.28,USD,Number of Application Load Balancers (2)
+Initial_Cost_Estimate,US East (N. Virginia),Amazon Elastic IP,0,1324,15888.00,USD,"Number of EC2 instances (16), Number of EIPs per instance (16)"
+
+"AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services."

@@ -1,0 +1,22 @@
+Group hierarchy,Region,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+Reduced_Cost_Estimate,US East (N. Virginia),Amazon Virtual Private Cloud (VPC),0,1184.85,14218.20,USD,Number of NAT Gateways (1)
+Reduced_Cost_Estimate,US East (N. Virginia),Amazon Virtual Private Cloud (VPC),0,1356.71,16280.52,USD," Inbound (from: Internet) 15 TB per month
+ Outbound (to: Internet) 15 TB per month
+ Intra-Region 0 TB per month
+"
+Reduced_Cost_Estimate,US East (N. Virginia),S3 Standard,0,605.38,7264.56,USD,S3 Standard storage (10 TB per month)
+Reduced_Cost_Estimate,US East (N. Virginia),Data Transfer,0,0,0.00,USD," Inbound (from: Internet) 20 TB per month
+ Outbound (to: Amazon Cloud Front) 20 TB per month
+"
+Reduced_Cost_Estimate,US East (N. Virginia),Amazon RDS for PostgreSQL,0,2565.28,30783.36,USD,"Quantity (2), Storage volume (General Purpose SSD (gp2)), Storage amount (3 TB per month), Instance type (db.m5.xlarge), Additional backup storage (5 TB)"
+Reduced_Cost_Estimate,US East (N. Virginia),Amazon EC2,0,383.22,4598.64,USD,"Operating system (Linux), Quantity (16), Storage for each EC2 instance (General Purpose SSD (gp2)), Storage amount (30 GB), Instance type (t2.medium)"
+Reduced_Cost_Estimate,US East (N. Virginia),Elastic Load Balancing,0,79.57,954.84,USD,Number of Application Load Balancers (2)
+Reduced_Cost_Estimate,US East (N. Virginia),Amazon Elastic IP,0,503.5,6042.00,USD,"Number of EC2 instances (10), Number of EIPs per instance (10)"
+
+
+
+"AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services."
+
+Changes,Use smaller (t2.medium) EC2 and (db.m5.xlarge) RDS instances. Use Reserved instances booked for a year (without paying up front)
+
+Reasoning,Smaller EC2 and RDS instances bring significant cost savings but would reduce performance. Reserved instances also reduce costs but locks the application to the selected infrastructure and limits rearchitecting of the application

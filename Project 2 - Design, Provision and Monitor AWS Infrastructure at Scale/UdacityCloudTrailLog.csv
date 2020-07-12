@@ -1,0 +1,231 @@
+Event ID,Event time,User name,Event name,Resource type,Resources,AWS access key,AWS region,Error code,Source IP address
+536f89fb-5322-438e-af86-67015e86a8bd,"2020-07-03, 11:55:54 AM",root,DescribeMetricFilters,,,,eu-central-1,,46.114.3.208
+6709cf72-987e-404e-b7b7-879baf0c7f90,"2020-07-03, 11:55:54 AM",root,ListApplications,,,,eu-central-1,,46.114.3.208
+68cafb5b-dd65-47b9-a25b-eac8f289daa7,"2020-07-03, 11:55:54 AM",root,ListGroups,,,,eu-central-1,,46.114.3.208
+87d80927-0498-4ca7-a369-44dd61626f63,"2020-07-03, 11:55:54 AM",root,GetDashboard,,,,eu-central-1,DashboardNotFoundError,46.114.3.208
+285b5802-11e8-45f5-a0b8-2cd4ee7d7a90,"2020-07-03, 11:55:53 AM",root,DescribePolicies,,,,eu-central-1,,46.114.3.208
+63f4d3e8-cea5-4078-982c-c433efbee8f5,"2020-07-03, 11:55:53 AM",root,DescribeAlarms,,,,eu-central-1,,46.114.3.208
+a65cd1cd-1626-4103-8c3c-870f02b428b6,"2020-07-03, 11:55:53 AM",root,ListTopics,,,,eu-central-1,,46.114.3.208
+ac5f69ee-8d50-45d0-9711-59db65581dde,"2020-07-03, 11:55:53 AM",root,DescribeScalingPolicies,,,,eu-central-1,,46.114.3.208
+31aeffba-2217-47f8-8dfe-6c25d8ded3a0,"2020-07-03, 11:55:39 AM",root,ConsoleLogin,,,,us-east-1,,46.114.3.208
+db00b215-bf64-41f9-b1f2-ee53e226be2d,"2020-07-03, 11:54:51 AM",CloudTrail,DescribeAlarms,,,,eu-central-1,AccessDenied,46.114.3.208
+1f9d42f8-065a-44bd-85ab-b9be104c66ca,"2020-07-03, 11:54:50 AM",CloudTrail,DescribeScalingPolicies,,,,eu-central-1,AccessDenied,46.114.3.208
+57ae5a30-5505-4d5a-859c-f8a7bc0d6dc7,"2020-07-03, 11:54:50 AM",CloudTrail,DescribePolicies,,,,eu-central-1,AccessDenied,46.114.3.208
+652a7359-dfe5-4e28-8137-23661f96719a,"2020-07-03, 11:54:50 AM",CloudTrail,DescribeAlarms,,,,eu-central-1,AccessDenied,46.114.3.208
+68297126-d1fc-48c2-845a-ecebbd7bbd0f,"2020-07-03, 11:54:50 AM",CloudTrail,ListTopics,,,,eu-central-1,,46.114.3.208
+bb8624d6-e525-4315-a6f4-cbe69aee39ac,"2020-07-03, 11:54:50 AM",CloudTrail,ListSubscriptions,,,,eu-central-1,AccessDenied,46.114.3.208
+bb28eba8-01a4-493a-85c6-d7725facc8e1,"2020-07-03, 11:54:11 AM",CloudTrail,ListGroups,,,,eu-central-1,AccessDenied,46.114.3.208
+bed98d21-483d-44c6-8bb8-72852eebf435,"2020-07-03, 11:54:11 AM",CloudTrail,DescribeMetricFilters,,,,eu-central-1,AccessDenied,46.114.3.208
+09ca4ea8-0f0d-4c10-9989-aedb07cc247e,"2020-07-03, 11:54:10 AM",CloudTrail,DescribeAlarms,,,,eu-central-1,AccessDenied,46.114.3.208
+139dc5d5-2d92-4a5c-ba69-1c8519cb7d76,"2020-07-03, 11:54:10 AM",CloudTrail,DescribePolicies,,,,eu-central-1,AccessDenied,46.114.3.208
+7a7fbcc6-7d54-43ef-8cd5-6c91d53f3974,"2020-07-03, 11:54:10 AM",CloudTrail,ListTopics,,,,eu-central-1,,46.114.3.208
+7e4572ee-b82a-455d-a1c8-892b6c9215d5,"2020-07-03, 11:54:10 AM",CloudTrail,DescribeAlarms,,,,eu-central-1,AccessDenied,46.114.3.208
+c7274523-cba3-497b-86bf-1497cb7d1829,"2020-07-03, 11:54:10 AM",CloudTrail,DescribeScalingPolicies,,,,eu-central-1,AccessDenied,46.114.3.208
+af8cb037-fade-4fc9-a526-8f5b04a2c3b8,"2020-07-03, 11:53:24 AM",CloudTrail,DescribeConfigurationRecorders,,,,eu-central-1,AccessDenied,46.114.3.208
+3bade9b4-757c-47c6-9a44-f3a56ec0ea02,"2020-07-03, 11:53:23 AM",CloudTrail,LookupEvents,,,,eu-central-1,,46.114.3.208
+f239782d-18f8-4215-9626-6aac620c58bd,"2020-07-03, 11:53:23 AM",CloudTrail,LookupEvents,,,,eu-central-1,,46.114.3.208
+21a3844c-17e2-4b7a-a034-531f6ecbe3dd,"2020-07-03, 11:53:00 AM",CloudTrail,StopLogging,CloudTrail Trail,"[{""resourceType"":""AWS::CloudTrail::Trail"",""resourceName"":""arn:aws:cloudtrail:eu-central-1:531788746776:trail/Udacity_Trial""}]",,eu-central-1,,46.114.3.208
+04bbd641-d913-4036-8934-9acc42bf15e4,"2020-07-03, 11:52:47 AM",CloudTrail,GetInsightSelectors,,,,eu-central-1,InsightNotEnabledException,46.114.3.208
+2b760db8-0cef-4ab4-89ad-463e0895a33b,"2020-07-03, 11:52:47 AM",CloudTrail,ListTopics,,,,eu-central-1,,46.114.3.208
+30d0742e-8775-4541-9bb4-8597867592a4,"2020-07-03, 11:52:47 AM",CloudTrail,ListKeys,,,,eu-central-1,,46.114.3.208
+4fd353de-558f-435a-bf44-da35133dd046,"2020-07-03, 11:52:47 AM",CloudTrail,GetTrailStatus,,,,eu-central-1,,46.114.3.208
+77963959-b408-46ae-b2de-0363bd84e4cd,"2020-07-03, 11:52:47 AM",CloudTrail,ListAliases,,,,eu-central-1,,46.114.3.208
+c4f7c4ec-0531-4cae-befc-2f668b8282d0,"2020-07-03, 11:52:47 AM",CloudTrail,ListKeys,,,,eu-central-1,,46.114.3.208
+db5d52e4-2d53-4f1a-927a-9d6bd01ea93e,"2020-07-03, 11:52:47 AM",CloudTrail,ListAliases,,,,eu-central-1,,46.114.3.208
+eca91e08-705c-4f10-8397-9aced7d0425c,"2020-07-03, 11:52:47 AM",CloudTrail,GetBucketLocation,,,,eu-central-1,,46.114.3.208
+175b71fa-c91c-4793-8caf-0dae60b28c5f,"2020-07-03, 11:52:46 AM",CloudTrail,ListTags,,,,eu-central-1,,46.114.3.208
+8fb88a2d-d29f-4a14-b23f-8d8d09e586df,"2020-07-03, 11:52:46 AM",CloudTrail,GetEventSelectors,,,,eu-central-1,,46.114.3.208
+4dc6fb4e-268a-45fb-8e0d-491e3d523f8b,"2020-07-03, 11:52:37 AM",CloudTrail,DescribeConfigurationRecorders,,,,eu-central-1,AccessDenied,46.114.3.208
+ba7fc81c-799d-4d48-b9cf-04f8e4356814,"2020-07-03, 11:52:08 AM",CloudTrail,LookupEvents,,,,eu-central-1,,46.114.3.208
+42fc11a2-275a-47f8-9fc4-9d6b6cde9e22,"2020-07-03, 11:51:55 AM",CloudTrail,DescribeConfigurationRecorders,,,,eu-central-1,AccessDenied,46.114.3.208
+9dd6eb30-fe32-4a28-8e84-2709118bcd8a,"2020-07-03, 11:51:55 AM",CloudTrail,DescribeTrails,,,,eu-central-1,,46.114.3.208
+d853f53b-8b6b-4e06-a838-6f736142bfb5,"2020-07-03, 11:51:55 AM",CloudTrail,LookupEvents,,,,eu-central-1,,46.114.3.208
+bb08a3c0-3630-4909-8b18-fa1fdd6a9c5c,"2020-07-03, 11:51:54 AM",CloudTrail,LookupEvents,,,,eu-central-1,,46.114.3.208
+01b43236-085c-418f-bea0-a662eb6b3e73,"2020-07-03, 11:51:26 AM",CloudTrail,ListKeys,,,,eu-central-1,,46.114.3.208
+1d014c5b-8c04-440b-ac6f-ddf1b9137647,"2020-07-03, 11:51:26 AM",CloudTrail,ListTopics,,,,eu-central-1,,46.114.3.208
+3be71ee1-29cd-45d4-9ba7-0ba22ee21785,"2020-07-03, 11:51:26 AM",CloudTrail,GetTrailStatus,,,,eu-central-1,,46.114.3.208
+5155d9af-d41c-4990-8308-6b9f10e5b4f2,"2020-07-03, 11:51:26 AM",CloudTrail,GetBucketLocation,,,,eu-central-1,,46.114.3.208
+70740214-26e8-47f3-8957-141181a869c7,"2020-07-03, 11:51:26 AM",CloudTrail,GetInsightSelectors,,,,eu-central-1,InsightNotEnabledException,46.114.3.208
+bae79d46-fdca-43a9-ae2b-91e4cf9743f1,"2020-07-03, 11:51:26 AM",CloudTrail,ListAliases,,,,eu-central-1,,46.114.3.208
+c99da63a-a2d6-4a97-b856-27542bedd08d,"2020-07-03, 11:51:26 AM",CloudTrail,ListKeys,,,,eu-central-1,,46.114.3.208
+f92c1ca6-3696-4ad8-aa0b-6782019b6d6e,"2020-07-03, 11:51:26 AM",CloudTrail,ListAliases,,,,eu-central-1,,46.114.3.208
+0bf83ee3-c8af-4cc7-94d6-0b244fca4b10,"2020-07-03, 11:51:25 AM",CloudTrail,GetEventSelectors,,,,eu-central-1,,46.114.3.208
+337c5c3c-f4e6-4cc3-b2e2-0f2eaf014776,"2020-07-03, 11:51:25 AM",CloudTrail,ListTags,,,,eu-central-1,,46.114.3.208
+e0f57dd6-4c37-4e13-914d-6bb2af388018,"2020-07-03, 11:51:08 AM",CloudTrail,GetTrailStatus,,,,eu-central-1,,46.114.3.208
+498d7a8e-cc6d-44ff-921e-0210020f083d,"2020-07-03, 11:51:07 AM",CloudTrail,DescribeTrails,,,,eu-central-1,,46.114.3.208
+677128ee-8a7f-4f81-833b-c2836ab619e4,"2020-07-03, 11:51:07 AM",CloudTrail,CreateTrail,CloudTrail Trail and 1 more,"[{""resourceType"":""AWS::CloudTrail::Trail"",""resourceName"":""Udacity_Trial""},{""resourceType"":""AWS::CloudTrail::Trail"",""resourceName"":""arn:aws:cloudtrail:eu-central-1:531788746776:trail/Udacity_Trial""},{""resourceType"":""AWS::S3::Bucket"",""resourceName"":""uda-cloudtriallog""}]",,eu-central-1,,46.114.3.208
+7a9e40d5-52a4-4c8d-a9d3-e98a3220ce21,"2020-07-03, 11:51:07 AM",CloudTrail,CreateBucket,S3 Bucket,"[{""resourceType"":""AWS::S3::Bucket"",""resourceName"":""uda-cloudtriallog""}]",,eu-central-1,,46.114.3.208
+7aba8260-2c6e-4cdf-a39b-faaffd772053,"2020-07-03, 11:51:07 AM",CloudTrail,PutEventSelectors,CloudTrail Trail,"[{""resourceType"":""AWS::CloudTrail::Trail"",""resourceName"":""Udacity_Trial""},{""resourceType"":""AWS::CloudTrail::Trail"",""resourceName"":""arn:aws:cloudtrail:eu-central-1:531788746776:trail/Udacity_Trial""}]",,eu-central-1,,46.114.3.208
+874429bc-98d6-464d-8b07-6b31ff24fe26,"2020-07-03, 11:51:07 AM",CloudTrail,StartLogging,CloudTrail Trail,"[{""resourceType"":""AWS::CloudTrail::Trail"",""resourceName"":""Udacity_Trial""}]",,eu-central-1,,46.114.3.208
+88e3325c-7702-47ee-a358-e549baf58220,"2020-07-03, 11:51:07 AM",CloudTrail,GetTrailStatus,,,,eu-central-1,,46.114.3.208
+bccbbe80-3bc7-41c7-b62f-dbf239d11119,"2020-07-03, 11:51:07 AM",CloudTrail,PutBucketPolicy,S3 Bucket,"[{""resourceType"":""AWS::S3::Bucket"",""resourceName"":""uda-cloudtriallog""}]",,eu-central-1,,46.114.3.208
+25575b3d-620a-4ea7-8e03-ac38c6f567f5,"2020-07-03, 11:47:30 AM",CloudTrail,ListFunctions20150331,,,,eu-central-1,,46.114.3.208
+272f1dae-0db2-40a6-bdbe-f7417e748b64,"2020-07-03, 11:47:30 AM",CloudTrail,ListKeys,,,,eu-central-1,,46.114.3.208
+44b2cbf1-4c31-4d2a-91d9-0cf96ee73453,"2020-07-03, 11:47:30 AM",CloudTrail,ListAliases,,,,eu-central-1,,46.114.3.208
+72cfda80-5b80-4ce9-b654-652f5f474dfc,"2020-07-03, 11:47:30 AM",CloudTrail,DescribeTrails,,,,eu-central-1,,46.114.3.208
+e8b7cd84-a9fb-4a40-b00e-0fda9fcb929e,"2020-07-03, 11:47:30 AM",CloudTrail,ListTopics,,,,eu-central-1,,46.114.3.208
+832c9d41-2eec-41bf-820e-b2d8184a2595,"2020-07-03, 11:47:21 AM",CloudTrail,DescribeConfigurationRecorders,,,,eu-central-1,AccessDenied,46.114.3.208
+86da7102-12b3-4742-95f5-5228b9f3c502,"2020-07-03, 11:47:20 AM",CloudTrail,LookupEvents,,,,eu-central-1,,46.114.3.208
+ce37c9f7-6c36-4496-ab0f-1d423bc56087,"2020-07-03, 11:47:20 AM",CloudTrail,LookupEvents,,,,eu-central-1,,46.114.3.208
+e3e577be-4cac-4f05-8050-67cf93b59ce3,"2020-07-03, 11:47:19 AM",CloudTrail,DescribeTrails,,,,eu-central-1,,46.114.3.208
+f0eb01f1-f26a-4433-bfd7-4bbb7b011a54,"2020-07-03, 11:47:19 AM",CloudTrail,ListBuckets,,,,eu-central-1,,46.114.3.208
+20615a98-c66c-4d45-9c84-47808e5b342d,"2020-07-03, 11:46:38 AM",CloudTrail,ChangePassword,,,,us-east-1,,AWS Internal
+6c99efb1-98f9-489f-911f-e3dbb34655d1,"2020-07-03, 11:44:44 AM",Accountant,ChangePassword,,,,us-east-1,,AWS Internal
+4c2f2837-7fc1-4e9a-af26-feadf4d590b7,"2020-07-03, 11:44:19 AM",Accountant,ChangePassword,,,,us-east-1,InternalFailure,AWS Internal
+a78c607a-f4b3-4c0b-9089-b16e7ade74ce,"2020-07-03, 11:41:17 AM",root,UpdateLoginProfile,IAM User,"[{""resourceType"":""AWS::IAM::User"",""resourceName"":""Accountant""}]",,us-east-1,,46.114.3.208
+b2b509cc-bdc3-478c-8f18-fc6137f46f02,"2020-07-03, 11:41:10 AM",root,GetAccountPasswordPolicy,,,,us-east-1,,46.114.3.208
+0e3d4685-4500-4110-a31b-375042dd6656,"2020-07-03, 11:40:56 AM",root,UpdateLoginProfile,IAM User,"[{""resourceType"":""AWS::IAM::User"",""resourceName"":""CloudTrail""}]",,us-east-1,,46.114.3.208
+860abc4f-b11b-45ce-9d09-534ccaa93a70,"2020-07-03, 11:40:22 AM",root,GetAccountPasswordPolicy,,,,us-east-1,,46.114.3.208
+43d0635b-dc62-4ca8-b7dd-c21653b40e80,"2020-07-03, 11:40:04 AM",root,GetAccountPasswordPolicy,,,,us-east-1,,46.114.3.208
+4be422a5-e253-4c10-8ca8-2449891eba9a,"2020-07-03, 11:40:04 AM",root,ListSSHPublicKeys,,,,us-east-1,,46.114.3.208
+525562ae-6138-4ae3-80d7-0b260342f34c,"2020-07-03, 11:40:04 AM",root,GetAccountSummary,,,,us-east-1,,46.114.3.208
+96414484-8871-4d36-8c89-e3f6ab8aaa79,"2020-07-03, 11:40:04 AM",root,ListAccountAliases,,,,us-east-1,,46.114.3.208
+9e895957-74ea-42b3-ab86-bdeacd29e811,"2020-07-03, 11:40:04 AM",root,ListMFADevices,,,,us-east-1,,46.114.3.208
+acec88f4-d0f9-40cc-bab7-0382434b855c,"2020-07-03, 11:40:04 AM",root,ListServiceSpecificCredentials,,,,us-east-1,,46.114.3.208
+ad4173ec-9920-414d-adc1-d947f4425354,"2020-07-03, 11:40:04 AM",root,ListAccountAliases,,,,us-east-1,,46.114.3.208
+bd05f7ea-7741-471b-8bdd-8b199e44cd1a,"2020-07-03, 11:40:04 AM",root,ListServiceSpecificCredentials,,,,us-east-1,,46.114.3.208
+bfba60cb-18ff-4e3e-bc72-ca44eb196120,"2020-07-03, 11:40:04 AM",root,ListAccessKeys,,,,us-east-1,,46.114.3.208
+51810160-b2ec-4b76-91aa-3bcbed68e67c,"2020-07-03, 11:40:03 AM",root,ListUserTags,,,,us-east-1,,46.114.3.208
+524d2562-68cb-4f91-8075-45048f1fc86f,"2020-07-03, 11:40:03 AM",root,GetUser,,,,us-east-1,,46.114.3.208
+b9ef2c1e-ac95-4382-b62e-a6acd63cee54,"2020-07-03, 11:40:03 AM",root,ListAttachedGroupPolicies,,,,us-east-1,,46.114.3.208
+d172d2e2-8ea4-4d2c-a22b-ada69424162a,"2020-07-03, 11:40:03 AM",root,ListAttachedUserPolicies,,,,us-east-1,,46.114.3.208
+462d2678-28ce-4c0f-9404-b616461fc7fc,"2020-07-03, 11:40:00 AM",root,ListGroups,,,,us-east-1,,46.114.3.208
+78a31fc3-010d-4e99-b96f-ab8597fef8f4,"2020-07-03, 11:40:00 AM",root,GetAccessKeyLastUsed,,,,us-east-1,,46.114.3.208
+695c21b5-fa3b-42b4-928e-1272ac2de900,"2020-07-03, 11:39:59 AM",root,ListUsers,,,,us-east-1,,46.114.3.208
+f80a9068-11c1-4fdb-895b-e862348e627f,"2020-07-03, 11:39:59 AM",root,ListUsers,,,,us-east-1,,46.114.3.208
+72b26eb1-0146-476c-841c-fdaf75524ad3,"2020-07-03, 11:39:58 AM",root,GetAccountPasswordPolicy,,,,us-east-1,,46.114.3.208
+8c0d7190-3802-4ff1-b3fd-456a775727f1,"2020-07-03, 11:39:58 AM",root,ListMFADevices,,,,us-east-1,,46.114.3.208
+95bc1982-6de6-437b-9e78-fb8a89be9aba,"2020-07-03, 11:39:58 AM",root,GetAccountSummary,,,,us-east-1,,46.114.3.208
+b9c3891a-b6f0-43e0-8039-9864a1f1e579,"2020-07-03, 11:39:58 AM",root,ListAccountAliases,,,,us-east-1,,46.114.3.208
+f9b78d81-8248-4178-8577-7409fa55364e,"2020-07-03, 11:39:58 AM",root,ListAccessKeys,,,,us-east-1,,46.114.3.208
+07d9389b-ea05-407b-b562-76f103cca466,"2020-07-03, 11:39:50 AM",root,ListUsers,,,,us-east-1,,46.114.3.208
+29639a40-fa51-4cfb-8ffd-48c4f080a78c,"2020-07-03, 11:39:50 AM",root,GetAccessKeyLastUsed,,,,us-east-1,,46.114.3.208
+324d52fb-a417-4f50-910d-528281031062,"2020-07-03, 11:39:50 AM",root,ListGroups,,,,us-east-1,,46.114.3.208
+548ad04c-4847-4cf3-b8c8-1ce468a2348f,"2020-07-03, 11:39:50 AM",root,ListSigningCertificates,,,,us-east-1,,46.114.3.208
+9d0701ad-0cea-4007-a4ff-3875f9ec1a8b,"2020-07-03, 11:39:50 AM",root,ListUserTags,,,,us-east-1,,46.114.3.208
+a0dd3aa1-df0b-48f4-8869-457e08617f02,"2020-07-03, 11:39:50 AM",root,ListServiceSpecificCredentials,,,,us-east-1,,46.114.3.208
+a525b74d-8e41-4a90-8852-36068aba539b,"2020-07-03, 11:39:50 AM",root,ListServiceSpecificCredentials,,,,us-east-1,,46.114.3.208
+e12d9069-9bc3-4675-920e-4fc8d3edd7f9,"2020-07-03, 11:39:50 AM",root,ListSSHPublicKeys,,,,us-east-1,,46.114.3.208
+1ebb8c19-e4d1-4634-8ef4-61531564fdbc,"2020-07-03, 11:39:49 AM",root,ListAccountAliases,,,,us-east-1,,46.114.3.208
+84ce6b59-bfa5-481e-b8b6-0b6c36beb8bf,"2020-07-03, 11:39:49 AM",root,ListUsers,,,,us-east-1,,46.114.3.208
+121d52f0-5d53-41d1-aacb-1a3b268ffdbd,"2020-07-03, 11:39:28 AM",root,GetAccountPasswordPolicy,,,,us-east-1,,46.114.3.208
+15014501-33db-4f18-b23d-c8f8d041bbba,"2020-07-03, 11:39:28 AM",root,GetAccountSummary,,,,us-east-1,,46.114.3.208
+65af29b9-ed4d-43e6-8f7f-fe035affdfcd,"2020-07-03, 11:39:28 AM",root,ListAccessKeys,,,,us-east-1,,46.114.3.208
+739a6478-1482-4515-b5d4-0b8f638638fd,"2020-07-03, 11:39:28 AM",root,ListAccountAliases,,,,us-east-1,,46.114.3.208
+7f3edc11-5ffe-43fd-9bdb-065f4b50bcda,"2020-07-03, 11:39:28 AM",root,ListMFADevices,,,,us-east-1,,46.114.3.208
+381a9e8f-3e66-41a6-8f94-e341a7338cd5,"2020-07-03, 11:39:26 AM",root,ListAccountAliases,,,,us-east-1,,46.114.3.208
+577cd2d2-63af-40fe-b5da-5e733a8060e4,"2020-07-03, 11:39:26 AM",root,GetAccountSummary,,,,us-east-1,,46.114.3.208
+d0a1dc43-80e7-4533-8a71-2657811953c1,"2020-07-03, 11:39:26 AM",root,ListMFADevices,,,,us-east-1,,46.114.3.208
+dbf6aae5-4a24-4d4f-a30d-82af10a400f5,"2020-07-03, 11:39:26 AM",root,GetAccountPasswordPolicy,,,,us-east-1,,46.114.3.208
+e6a0e8f2-3cd9-481c-8c4f-4d8e553eec51,"2020-07-03, 11:39:26 AM",root,ListAccessKeys,,,,us-east-1,,46.114.3.208
+ed27da5e-18b3-4ef3-be41-21a975d7d846,"2020-07-03, 11:39:25 AM",root,ConsoleLogin,,,,us-east-1,,46.114.3.208
+3255a29d-7251-4ab7-b2d3-1fb2320408ed,"2020-07-03, 11:38:27 AM",root,ListServiceSpecificCredentials,,,,us-east-1,,46.114.3.208
+832ce7a7-96d2-49b2-8813-a589a713c388,"2020-07-03, 11:38:27 AM",root,ListSSHPublicKeys,,,,us-east-1,,46.114.3.208
+cd107b7a-7705-4b6c-b99a-8b60c813656f,"2020-07-03, 11:38:27 AM",root,ListServiceSpecificCredentials,,,,us-east-1,,46.114.3.208
+74fb5b4c-9b1a-4f3e-a8c1-2e403d49c298,"2020-07-03, 11:38:24 AM",root,ListPoliciesGrantingServiceAccess,,,,us-east-1,,46.114.3.208
+e8a16426-a65d-4ec9-8e8d-93ba7df07fd0,"2020-07-03, 11:38:24 AM",root,GetServiceLastAccessedDetails,,,,us-east-1,,46.114.3.208
+41f15884-8033-4c37-bc38-da58f7ddad02,"2020-07-03, 11:38:23 AM",root,GenerateServiceLastAccessedDetails,,,,us-east-1,,46.114.3.208
+b309be6b-cc32-43f4-a9d6-98dfdb89f841,"2020-07-03, 11:38:22 AM",root,GetUser,,,,us-east-1,,46.114.3.208
+12485df3-706f-4aa1-b5e7-634f4d3098cd,"2020-07-03, 11:38:21 AM",root,ListAttachedGroupPolicies,,,,us-east-1,,46.114.3.208
+22a4710b-4cf2-4e13-9a01-4eb343c393b1,"2020-07-03, 11:38:21 AM",root,ListAttachedUserPolicies,,,,us-east-1,,46.114.3.208
+bb34503e-b4f2-4484-addf-20399c442bf6,"2020-07-03, 11:38:21 AM",root,ListUserTags,,,,us-east-1,,46.114.3.208
+12c27655-843a-4b61-8fc5-b7977f3dea1a,"2020-07-03, 11:38:03 AM",root,GetAccountPasswordPolicy,,,,us-east-1,,46.114.3.208
+20ca81d3-838d-40e0-8cd8-82cdc7d51892,"2020-07-03, 11:38:03 AM",root,ListSSHPublicKeys,,,,us-east-1,,46.114.3.208
+21c95d44-c0df-4560-a515-736b5eb95852,"2020-07-03, 11:38:03 AM",root,ListMFADevices,,,,us-east-1,,46.114.3.208
+3c8d3000-0a40-43d7-b077-30e14bf94080,"2020-07-03, 11:38:03 AM",root,GetAccountSummary,,,,us-east-1,,46.114.3.208
+48fe5655-53eb-48c5-9157-3b7f42ee31ba,"2020-07-03, 11:38:03 AM",root,ListServiceSpecificCredentials,,,,us-east-1,,46.114.3.208
+589ef6c5-9661-4c33-87e3-682016a6083e,"2020-07-03, 11:38:03 AM",root,ListAccessKeys,,,,us-east-1,,46.114.3.208
+73d25475-354e-4374-a807-82729fdd829d,"2020-07-03, 11:38:03 AM",root,ListAccountAliases,,,,us-east-1,,46.114.3.208
+8da3a300-bc6d-4c27-bffb-af4d6f85c46c,"2020-07-03, 11:38:03 AM",root,ListServiceSpecificCredentials,,,,us-east-1,,46.114.3.208
+950d5d37-d70e-4c90-b7c9-ee0a6b3c9fd8,"2020-07-03, 11:38:03 AM",root,ListAccountAliases,,,,us-east-1,,46.114.3.208
+13042e2b-6a8d-4bb7-9b70-ea0e9ccaa6db,"2020-07-03, 11:37:59 AM",root,ListPoliciesGrantingServiceAccess,,,,us-east-1,,46.114.3.208
+63e08ecb-e6b5-4a19-88a3-f883b0e7b40a,"2020-07-03, 11:37:59 AM",root,GenerateServiceLastAccessedDetails,,,,us-east-1,,46.114.3.208
+fb1cdcba-0b35-4234-bfeb-f8410364ba2b,"2020-07-03, 11:37:59 AM",root,GetServiceLastAccessedDetails,,,,us-east-1,,46.114.3.208
+052fac44-ad37-4f61-af6b-4fe4aad316a5,"2020-07-03, 11:37:52 AM",root,ListAttachedGroupPolicies,,,,us-east-1,,46.114.3.208
+25e44c11-b0e1-4dbd-81da-a35a23cec550,"2020-07-03, 11:37:52 AM",root,GetUser,,,,us-east-1,,46.114.3.208
+8d5cc3b4-3d53-4fbb-a908-e6f3330fe15e,"2020-07-03, 11:37:52 AM",root,ListUserTags,,,,us-east-1,,46.114.3.208
+a59c3dec-1a7e-49e1-8a08-b951061fcc69,"2020-07-03, 11:37:52 AM",root,ListAttachedUserPolicies,,,,us-east-1,,46.114.3.208
+1a2f0e7b-c07d-440f-805a-527dcf0952e4,"2020-07-03, 11:37:49 AM",root,GetAccessKeyLastUsed,,,,us-east-1,,46.114.3.208
+21a6cd4f-dd03-4a51-bec0-a9dedd5c8197,"2020-07-03, 11:37:49 AM",root,ListGroups,,,,us-east-1,,46.114.3.208
+d5123cea-aed1-49bb-9bd3-b0512cb005bd,"2020-07-03, 11:37:48 AM",root,ListUsers,,,,us-east-1,,46.114.3.208
+f6b9db98-0d15-44bd-a79a-8ab11f8b834e,"2020-07-03, 11:37:48 AM",root,ListUsers,,,,us-east-1,,46.114.3.208
+0f5b7727-fbe6-49a7-b796-b54307650df0,"2020-07-03, 11:37:40 AM",root,GetAccountPasswordPolicy,,,,us-east-1,,46.114.3.208
+13b69e69-1216-4bba-966c-8561a776ce15,"2020-07-03, 11:37:40 AM",root,GetAccountSummary,,,,us-east-1,,46.114.3.208
+846a1fc0-f356-4bfc-8c07-6562deba1927,"2020-07-03, 11:37:40 AM",root,ListAccessKeys,,,,us-east-1,,46.114.3.208
+918ba852-1723-4ba6-bd7e-c1ad799646ec,"2020-07-03, 11:37:40 AM",root,ListAccountAliases,,,,us-east-1,,46.114.3.208
+bec7095d-3748-48b2-aebc-272a794ea97b,"2020-07-03, 11:37:40 AM",root,ListMFADevices,,,,us-east-1,,46.114.3.208
+07299fc6-00a2-4366-85bb-5a296c24ced0,"2020-07-03, 11:37:39 AM",root,GetAccountSummary,,,,us-east-1,,46.114.3.208
+4ff01423-bfae-4502-bf6f-b6c732af7976,"2020-07-03, 11:37:39 AM",root,ListAccessKeys,,,,us-east-1,,46.114.3.208
+82484d64-5ec0-4eb8-853e-a7d04b76d9a7,"2020-07-03, 11:37:39 AM",root,GetAccountPasswordPolicy,,,,us-east-1,,46.114.3.208
+a46a63b1-af40-4433-8fa6-a0fea82e2c28,"2020-07-03, 11:37:39 AM",root,ListAccountAliases,,,,us-east-1,,46.114.3.208
+f2da7b4e-bc62-491c-a12a-7bc7eaeb1cc0,"2020-07-03, 11:37:39 AM",root,ListMFADevices,,,,us-east-1,,46.114.3.208
+d9296714-949d-4ace-ab3b-0c9ead58f0da,"2020-07-03, 11:37:30 AM",root,ConsoleLogin,,,,us-east-1,,46.114.3.208
+11c1f0e8-2a61-4d38-aebf-e85fe0937b37,"2020-07-03, 11:35:33 AM",root,ListUserTags,,,,us-east-1,,46.114.3.208
+b1d85070-8ab5-46ab-8b5f-e5388befb770,"2020-07-03, 11:35:33 AM",root,GetUser,,,,us-east-1,,46.114.3.208
+d1125214-394f-4716-88bb-71faeb667237,"2020-07-03, 11:35:33 AM",root,ListAttachedUserPolicies,,,,us-east-1,,46.114.3.208
+9caf55d1-2d6f-42d0-bb12-b65cb814e493,"2020-07-03, 11:35:30 AM",root,ListUsers,,,,us-east-1,,46.114.3.208
+e772b6a4-73a7-4c55-9dea-833ab89c6185,"2020-07-03, 11:35:12 AM",root,ListAttachedGroupPolicies,,,,us-east-1,,46.114.3.208
+a9393eed-e96d-4ecd-9389-1e5d61de1a54,"2020-07-03, 11:35:10 AM",root,GetGroup,,,,us-east-1,,46.114.3.208
+0aed0443-50c3-4a07-a14d-8b4ac2c399c5,"2020-07-03, 11:35:08 AM",root,ListGroups,,,,us-east-1,,46.114.3.208
+b4dddac5-1054-474e-a3b5-6238da67747e,"2020-07-03, 11:35:08 AM",root,ListGroups,,,,us-east-1,,46.114.3.208
+1ce629a3-8ee0-4316-b861-6bda2a8dc11f,"2020-07-03, 11:35:02 AM",root,ListPolicies,,,,us-east-1,,46.114.3.208
+09902ad8-d0d7-439e-8345-e1ed0de5ad42,"2020-07-03, 11:35:01 AM",root,GetAccountPasswordPolicy,,,,us-east-1,,46.114.3.208
+5228d350-6903-484d-8353-6ec83b86b8b9,"2020-07-03, 11:35:01 AM",root,GetPolicy,,,,us-east-1,,46.114.3.208
+7a45aeda-45a5-4ee2-b9d0-f5730dce0610,"2020-07-03, 11:35:01 AM",root,AttachUserPolicy,IAM User and 1 more,"[{""resourceType"":""AWS::IAM::User"",""resourceName"":""Accountant""},{""resourceType"":""AWS::IAM::Policy"",""resourceName"":""arn:aws:iam::aws:policy/IAMUserChangePassword""}]",,us-east-1,,46.114.3.208
+b93f0a46-1ee7-4208-832d-bafa31463de5,"2020-07-03, 11:35:01 AM",root,ListGroupsForUser,,,,us-east-1,,46.114.3.208
+d4e25475-b9cc-4543-948d-dbaeeda6f72a,"2020-07-03, 11:35:01 AM",root,AddUserToGroup,IAM User and 1 more,"[{""resourceType"":""AWS::IAM::User"",""resourceName"":""Accountant""},{""resourceType"":""AWS::IAM::Group"",""resourceName"":""Reviewers""}]",,us-east-1,,46.114.3.208
+ec480d63-9de4-4409-b352-165c1db4522c,"2020-07-03, 11:35:01 AM",root,CreateLoginProfile,IAM User,"[{""resourceType"":""AWS::IAM::User"",""resourceName"":""Accountant""}]",,us-east-1,,46.114.3.208
+0d9497bd-2b29-4716-8035-9603880b499d,"2020-07-03, 11:35:00 AM",root,ListUsers,,,,us-east-1,,46.114.3.208
+45fbdcc5-7629-4f58-8123-37a9612a6a4d,"2020-07-03, 11:35:00 AM",root,CreateUser,IAM User,"[{""resourceType"":""AWS::IAM::User"",""resourceName"":""AIDAXXUIUKAMPLPZ3AX6B""},{""resourceType"":""AWS::IAM::User"",""resourceName"":""Accountant""},{""resourceType"":""AWS::IAM::User"",""resourceName"":""arn:aws:iam::531788746776:user/Accountant""}]",,us-east-1,,46.114.3.208
+09418216-9477-4be3-8fe3-450151d4c692,"2020-07-03, 11:34:11 AM",root,ListAccountAliases,,,,us-east-1,,46.114.3.208
+379cdfe6-b14d-40f5-a92a-0bb71d4ed891,"2020-07-03, 11:34:11 AM",root,GetAccountPasswordPolicy,,,,us-east-1,,46.114.3.208
+97c5ad67-6ffa-4a6a-81ac-dfff00340b64,"2020-07-03, 11:34:11 AM",root,CreateLoginProfile,IAM User,"[{""resourceType"":""AWS::IAM::User"",""resourceName"":""CloudTrail""}]",,us-east-1,,46.114.3.208
+c55843f7-3af4-4b7c-8510-597fe909def2,"2020-07-03, 11:34:11 AM",root,ListPolicies,,,,us-east-1,,46.114.3.208
+526e0b94-ee52-44dd-b56a-639e1aa4a952,"2020-07-03, 11:34:10 AM",root,ListGroupsForUser,,,,us-east-1,,46.114.3.208
+77337f64-f617-4bb6-9193-d7a1d1225f55,"2020-07-03, 11:34:10 AM",root,GetPolicy,,,,us-east-1,,46.114.3.208
+9280a5ed-2ac9-4ea0-b186-3f733d235667,"2020-07-03, 11:34:10 AM",root,AttachUserPolicy,IAM User and 1 more,"[{""resourceType"":""AWS::IAM::User"",""resourceName"":""CloudTrail""},{""resourceType"":""AWS::IAM::Policy"",""resourceName"":""arn:aws:iam::aws:policy/IAMUserChangePassword""}]",,us-east-1,,46.114.3.208
+a99bd2b7-cfa1-4543-a160-9b81c51856ed,"2020-07-03, 11:34:10 AM",root,ListUsers,,,,us-east-1,,46.114.3.208
+fec00b73-e8b7-4dff-8d65-bdada28dfb5f,"2020-07-03, 11:34:10 AM",root,AddUserToGroup,IAM User and 1 more,"[{""resourceType"":""AWS::IAM::User"",""resourceName"":""CloudTrail""},{""resourceType"":""AWS::IAM::Group"",""resourceName"":""CloudTrailAdmins""}]",,us-east-1,,46.114.3.208
+fc209757-a5c4-4aef-98a1-ccd023cd6fb5,"2020-07-03, 11:34:09 AM",root,CreateUser,IAM User,"[{""resourceType"":""AWS::IAM::User"",""resourceName"":""CloudTrail""},{""resourceType"":""AWS::IAM::User"",""resourceName"":""AIDAXXUIUKAMER3T5XK6B""},{""resourceType"":""AWS::IAM::User"",""resourceName"":""arn:aws:iam::531788746776:user/CloudTrail""}]",,us-east-1,,46.114.3.208
+247d31d5-03b5-4fbc-9db7-0ca60aecd35d,"2020-07-03, 11:32:41 AM",root,ListAttachedGroupPolicies,,,,us-east-1,,46.114.3.208
+66ff6f3e-61c2-4609-9b86-cd019b9c4dc6,"2020-07-03, 11:32:41 AM",root,ListAttachedGroupPolicies,,,,us-east-1,,46.114.3.208
+8315d0c3-182f-4ad0-9ad5-c65073473b14,"2020-07-03, 11:32:41 AM",root,ListAttachedGroupPolicies,,,,us-east-1,,46.114.3.208
+b2a2733c-e9ca-452c-b1fb-00bab43eea6c,"2020-07-03, 11:31:26 AM",root,GetAccountPasswordPolicy,,,,us-east-1,,46.114.3.208
+904d75a5-45b1-4417-a8ca-d21e7905ee46,"2020-07-03, 11:30:50 AM",root,ListPolicies,,,,us-east-1,,46.114.3.208
+85a4724e-6722-4cbd-ae6b-7752d22044ed,"2020-07-03, 11:30:48 AM",root,ListGroups,,,,us-east-1,,46.114.3.208
+fb768d26-db7d-4ae7-bdf0-518ef41e3d8f,"2020-07-03, 11:30:48 AM",root,GetAccessKeyLastUsed,,,,us-east-1,,46.114.3.208
+193b554e-6af5-482f-8b60-60c7293a6d88,"2020-07-03, 11:30:47 AM",root,ListUsers,,,,us-east-1,,46.114.3.208
+e6430296-a2df-4d81-9a4e-f4c211c7e864,"2020-07-03, 11:30:47 AM",root,ListUsers,,,,us-east-1,,46.114.3.208
+e3cf8f9e-9f37-4db4-887a-4885f7ae7a1c,"2020-07-03, 10:34:34 AM",root,ListPolicies,,,,us-east-1,,46.114.3.208
+99cc102d-9e6d-42c3-9f92-de4743dc7b8c,"2020-07-03, 10:04:45 AM",root,CreateGroup,IAM Group,"[{""resourceType"":""AWS::IAM::Group"",""resourceName"":""arn:aws:iam::531788746776:group/Reviewers""},{""resourceType"":""AWS::IAM::Group"",""resourceName"":""Reviewers""},{""resourceType"":""AWS::IAM::Group"",""resourceName"":""AGPAXXUIUKAMDH7ZFFWG7""}]",,us-east-1,,46.114.3.208
+c990ed59-6654-4ced-a5b9-1f740a62e114,"2020-07-03, 10:04:45 AM",root,AttachGroupPolicy,IAM Policy and 1 more,"[{""resourceType"":""AWS::IAM::Policy"",""resourceName"":""arn:aws:iam::aws:policy/job-function/Billing""},{""resourceType"":""AWS::IAM::Group"",""resourceName"":""Reviewers""}]",,us-east-1,,46.114.3.208
+cfeaf6ce-16d6-47a0-ae1c-4b776e4495e0,"2020-07-03, 10:04:45 AM",root,ListGroups,,,,us-east-1,,46.114.3.208
+919932fd-fabb-40b5-be74-996722be8fd0,"2020-07-03, 10:04:34 AM",root,ListPolicies,,,,us-east-1,,46.114.3.208
+ea96073e-9152-47be-b4f6-9b872c05d5b2,"2020-07-03, 10:04:33 AM",root,ListPolicies,,,,us-east-1,,46.114.3.208
+662317a0-46a1-461e-9252-7009b1a81c40,"2020-07-03, 10:04:24 AM",root,CreateGroup,IAM Group,"[{""resourceType"":""AWS::IAM::Group"",""resourceName"":""arn:aws:iam::531788746776:group/CloudTrailAdmins""},{""resourceType"":""AWS::IAM::Group"",""resourceName"":""CloudTrailAdmins""},{""resourceType"":""AWS::IAM::Group"",""resourceName"":""AGPAXXUIUKAMBHBTJYRCR""}]",,us-east-1,,46.114.3.208
+6ba39934-6c73-4376-ad30-7a729e7fcb53,"2020-07-03, 10:04:24 AM",root,AttachGroupPolicy,IAM Policy and 1 more,"[{""resourceType"":""AWS::IAM::Policy"",""resourceName"":""arn:aws:iam::aws:policy/AWSCloudTrailReadOnlyAccess""},{""resourceType"":""AWS::IAM::Group"",""resourceName"":""CloudTrailAdmins""}]",,us-east-1,,46.114.3.208
+8745f0fc-9bb7-43fd-bc7c-91703006c641,"2020-07-03, 10:04:24 AM",root,ListGroups,,,,us-east-1,,46.114.3.208
+ae967edb-4967-4f11-a2dd-2ad6c493915e,"2020-07-03, 10:04:24 AM",root,AttachGroupPolicy,IAM Policy and 1 more,"[{""resourceType"":""AWS::IAM::Policy"",""resourceName"":""arn:aws:iam::aws:policy/AWSCloudTrailFullAccess""},{""resourceType"":""AWS::IAM::Group"",""resourceName"":""CloudTrailAdmins""}]",,us-east-1,,46.114.3.208
+fb3d32b7-0d05-4900-81c0-e8c5684c997b,"2020-07-03, 10:03:56 AM",root,ListPolicies,,,,us-east-1,,46.114.3.208
+9012a2ae-2b63-482c-8a62-ecf79b0dfac0,"2020-07-03, 10:03:55 AM",root,ListPolicies,,,,us-east-1,,46.114.3.208
+e52b0b3b-ca15-45e0-bede-e8152ef0d963,"2020-07-03, 10:03:42 AM",root,ListGroups,,,,us-east-1,,46.114.3.208
+a573f834-d862-432d-9658-6451e7cf8f14,"2020-07-03, 09:57:22 AM",root,UpdateAccountPasswordPolicy,,,,us-east-1,,46.114.3.208
+b7c2402b-6bf6-4fda-bb3d-d1a8d03be576,"2020-07-03, 09:57:22 AM",root,GetAccountPasswordPolicy,,,,us-east-1,,46.114.3.208
+40e36d2a-8ee7-4e84-abcf-8a82d404306a,"2020-07-03, 09:56:33 AM",root,ListAccessKeys,,,,us-east-1,,46.114.3.208
+799588bb-57ef-4f6a-9274-d8b6e87ebf38,"2020-07-03, 09:56:33 AM",root,ListMFADevices,,,,us-east-1,,46.114.3.208
+80a8ca23-79d1-4a77-808f-e075a951f4d2,"2020-07-03, 09:56:33 AM",root,GetAccountPasswordPolicy,,,,us-east-1,NoSuchEntityException,46.114.3.208
+86b62019-db52-4332-881a-1aa4f47a99f9,"2020-07-03, 09:56:33 AM",root,ListAccountAliases,,,,us-east-1,,46.114.3.208
+bce514dd-763f-4e55-980c-e3ddb9e74e32,"2020-07-03, 09:56:33 AM",root,GetAccountPasswordPolicy,,,,us-east-1,NoSuchEntityException,46.114.3.208
+fce021e5-b75d-40c8-a2ef-e5beb9c695d4,"2020-07-03, 09:56:33 AM",root,GetAccountSummary,,,,us-east-1,,46.114.3.208
+6ed41575-7f9d-45b1-8e5f-c0c4d9cbfbc8,"2020-07-03, 09:56:19 AM",root,ListPolicies,,,,us-east-1,,46.114.3.208
+a2d41080-aade-407e-8ccb-a896f2f99176,"2020-07-03, 09:56:05 AM",root,ListMFADevices,,,,us-east-1,,46.114.3.208
+dc99cfcf-008d-492c-9756-a21a4bada156,"2020-07-03, 09:56:05 AM",root,ListAccessKeys,,,,us-east-1,,46.114.3.208
+3fd11af2-eb3e-4131-97aa-8641f16076e7,"2020-07-03, 09:56:04 AM",root,GetAccountPasswordPolicy,,,,us-east-1,NoSuchEntityException,46.114.3.208
+919583e7-4982-4deb-bb4c-25baaff59b99,"2020-07-03, 09:56:04 AM",root,ListAccountAliases,,,,us-east-1,,46.114.3.208
+cb942bd2-8633-44c3-a247-69d2cefd7deb,"2020-07-03, 09:56:04 AM",root,GetAccountSummary,,,,us-east-1,,46.114.3.208
+233a7ae8-2c9f-4905-b3bf-1060cdcdf5c8,"2020-07-03, 09:56:02 AM",root,ListMFADevices,,,,us-east-1,,46.114.3.208
+6329b213-6008-45c7-bdf5-298f870217bc,"2020-07-03, 09:56:02 AM",root,ListAccountAliases,,,,us-east-1,,46.114.3.208
+712346da-e2f8-49ca-84dd-8ae991debca1,"2020-07-03, 09:56:02 AM",root,ListAccessKeys,,,,us-east-1,,46.114.3.208
+a70414b7-c7d7-48e0-910e-e8d947dda55f,"2020-07-03, 09:56:02 AM",root,GetAccountPasswordPolicy,,,,us-east-1,NoSuchEntityException,46.114.3.208
+e7d0a702-c3d9-4e83-8d88-0a7ea807cf4a,"2020-07-03, 09:56:02 AM",root,GetAccountSummary,,,,us-east-1,,46.114.3.208
+88688c2b-71e5-4180-b579-aee2163b6b4a,"2020-07-03, 09:55:45 AM",root,ConsoleLogin,,,,us-east-1,,46.114.3.208

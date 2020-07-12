@@ -1,0 +1,31 @@
+Group hierarchy,Region,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+Increased_Cost_Estimate,US East (N. Virginia),Amazon Virtual Private Cloud (VPC),0,1184.85,14218.20,USD,Number of NAT Gateways (1)
+Increased_Cost_Estimate,US East (N. Virginia),Amazon Virtual Private Cloud (VPC),0,1791.91,21502.92,USD," Inbound (from: Internet) 20 TB per month
+ Outbound (to: Internet) 20 TB per month
+ Intra-Region 0 TB per month
+"
+Increased_Cost_Estimate,US East (N. Virginia),S3 Standard,0,605.38,7264.56,USD,S3 Standard storage (10 TB per month)
+Increased_Cost_Estimate,US East (N. Virginia),Data Transfer,0,0,0.00,USD," Inbound (from: Internet) 10 TB per month
+ Outbound (to: Amazon Cloud Front) 20 TB per month
+"
+Increased_Cost_Estimate,US East (N. Virginia),Amazon RDS for PostgreSQL,0,5586.559,67038.72,USD,"Quantity (2), Storage volume (General Purpose SSD (gp2)), Storage amount (2 TB per month), Instance type (db.m5.4xlarge), Additional backup storage (5 TB)"
+Increased_Cost_Estimate,Asia Pacific (Mumbai),Amazon RDS for PostgreSQL,0,2232.208,26786.50,USD,"Quantity (1), Storage volume (General Purpose SSD (gp2)), Storage amount (2 TB per month), Instance type (db.m5.4xlarge), Additional backup storage (5 TB)"
+Increased_Cost_Estimate,Asia Pacific (Mumbai),Amazon Virtual Private Cloud (VPC),0,1474.48,17693.76,USD,Number of NAT Gateways (1)
+Increased_Cost_Estimate,Asia Pacific (Mumbai),Amazon Virtual Private Cloud (VPC),0,0,0.00,USD," Inbound (from: Internet) 20 TB per month
+ Outbound (to: Amazon Cloud Front) 20 TB per month
+ Intra-Region 0 TB per month
+"
+Increased_Cost_Estimate,US East (N. Virginia),Amazon EC2,0,1991.55,23898.60,USD,"Operating system (Linux), Quantity (16), Storage for each EC2 instance (General Purpose SSD (gp2)), Storage amount (30 GB), Instance type (t3.xlarge)"
+Increased_Cost_Estimate,Asia Pacific (Mumbai),Amazon EC2,0,2147.7799999999997,25773.36,USD,"Operating system (Linux), Quantity (16), Storage for each EC2 instance (General Purpose SSD (gp2)), Storage amount (30 GB), Instance type (t3.xlarge)"
+Increased_Cost_Estimate,Asia Pacific (Mumbai),Elastic Load Balancing,0,40.81,489.72,USD,Number of Application Load Balancers (1)
+Increased_Cost_Estimate,US East (N. Virginia),Elastic Load Balancing,0,79.57,954.84,USD,Number of Application Load Balancers (2)
+Increased_Cost_Estimate,US East (N. Virginia),Amazon Elastic IP,0,1324,15888.00,USD,"Number of EC2 instances (16), Number of EIPs per instance (16)"
+Increased_Cost_Estimate,Asia Pacific (Mumbai),Amazon Elastic IP,0,1324,15888.00,USD,"Number of EC2 instances (16), Number of EIPs per instance (16)"
+
+
+
+"AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services."
+
+Changes, Larger (db.m5.4xlarge) RDS and (t3.xlarge) EC2 instances are deployed to handle increased data load and offer improved performance. Third availability zone setup in secondary region (ap-south-1) has its own VPC NAT Gateway, Cloudfront, ELB, Elastic IP, RDS Read Replica and EC2 AutoScaling.
+
+Reasoning, Third AZ in the secondary region (ap-south-1) allows for failover if the primary region (us-east-1a) goes down in the event of a disaster. Larger RDS instances improve database performance and bigger EC2 instances improve application performance considering the overall growth of the platform over time.

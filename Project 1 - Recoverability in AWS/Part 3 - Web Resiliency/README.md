@@ -1,0 +1,2 @@
+## Part 3: Web Resiliency
+In this part, I built a resilient static web hosting solution in AWS and created a versioned S3 bucket and configured it as a static website. The screenshots show various versions of the `index.html` file containing some modifications of changing the background image of different seasons and recovering deleted objects (using a _delete_marker_) in an S3 bucket.
