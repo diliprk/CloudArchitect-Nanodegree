@@ -11,9 +11,9 @@ This repository contains the solutions for the project works from the Udacity **
 - Investigate security practices around monitoring and defending cloud based applications and environments.
 
 ## Projects
--   [Project 1 - Recoverability in AWS](https://github.com/diliprk/CloudArchitect-Nanodegree/Project1-RecoverabilityinAWS)
--   [Project 2 - Design, Provision and Monitor AWS Infrastructure at Scale](https://github.com/diliprk/CloudArchitect-Nanodegree/Project2-DesignProvisionandMonitorAWSInfrastructureatScale)
--   [Project 3 - Secure the Recipe Vault Web Application](https://github.com/diliprk/CloudArchitect-Nanodegree/Project3-SecuretheRecipeVaultWebApplication)
+-   [Project 1 - Recoverability in AWS](https://github.com/diliprk/CloudArchitect-Nanodegree/tree/master/Project%201%20-%20Recoverability%20in%20AWS)
+-   [Project 2 - Design, Provision and Monitor AWS Infrastructure at Scale](https://github.com/diliprk/CloudArchitect-Nanodegree/tree/master/Project%202%20-%20Design%2C%20Provision%20and%20Monitor%20AWS%20Infrastructure%20at%20Scale)
+-   [Project 3 - Secure the Recipe Vault Web Application](https://github.com/diliprk/CloudArchitect-Nanodegree/tree/master/Project%203%20-%20Securing%20the%20Recipe%20Vault%20Web%20Application)
 
 ## Nanodegree Certificate
 [Graduation Confirmation](https://confirm.udacity.com/C39JKUA5)
